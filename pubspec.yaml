@@ -1,0 +1,281 @@
+name: exploreskflutteryyyy
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  carousel_slider: "^0.0.5"
+  cloud_firestore: "^0.7.3"
+  firebase_remote_config: "^0.0.2"
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/bg.jpg
+    - images/inr.png
+    - images/cloud.png
+    - images/card.jpg
+    - images/card1.jpg
+    - images/card2.jpg
+    - images/card3.jpg
+    - images/card4.jpg
+    - images/card5.jpg
+    - images/shadow.png
+    - images/login.jpg
+    - images/profile.jpg
+    - images/shadow-overlay.png
+    - assets/animations/star.json
+    - assets/animations/emoji_shock.json
+    - assets/animations/horizontalLoader.json
+  #Hotel Images here
+    - images/hotel/slider1.jpg
+    - images/hotel/slider2.jpg
+    - images/hotel/slider3.jpg
+    - images/hotel/slider4.jpg
+    - images/hotel/slider5.jpg
+  #Intersts images here
+
+    - images/explore-sikkim/gangtok.jpg
+    - images/explore-sikkim/hanuman-tok.jpg
+    - images/explore-sikkim/kanchendzonga-park.jpg
+    - images/explore-sikkim/lachung.jpg
+    - images/explore-sikkim/pelling.jpg
+    - images/explore-sikkim/changu-lake.jpg
+    - images/explore-sikkim/ravangla.jpg
+    - images/explore-sikkim/siddheshwara-dham.jpg
+    - images/explore-sikkim/nathula-pass.jpg
+    - images/explore-sikkim/sikkim-science-centre.jpg
+    - images/explore-sikkim/temi-tea-garden.jpg
+    - images/explore-sikkim/baba-harbajan-singh-mandir.jpg
+  # Interests data files here
+    - data/attractions/interests/gangtok.twig
+    - data/attractions/interests/hanuman-tok.twig
+    - data/attractions/interests/kanchendzonga-park.twig
+    - data/attractions/interests/lachung.twig
+    - data/attractions/interests/pelling.twig
+    - data/attractions/interests/changu-lake.twig
+    - data/attractions/interests/ravangla.twig
+    - data/attractions/interests/siddheshwara-dham.twig
+    - data/attractions/interests/nathula-pass.twig
+    - data/attractions/interests/sikkim-science-centre.twig
+    - data/attractions/interests/temi-tea-garden.twig
+    - data/attractions/interests/baba-harbajan-singh-mandir.twig
+  #Monastries here
+    - images/Monastries/enlarged/bon-monastery.jpg
+    - images/Monastries/enlarged/do-drul-chorten-monastery.jpg
+    - images/Monastries/enlarged/dubdi-monastery.jpg
+    - images/Monastries/enlarged/enchey-monastery.jpg
+    - images/Monastries/enlarged/labrang-monastery.jpg
+    - images/Monastries/enlarged/mangbure-monastery.jpg
+    - images/Monastries/enlarged/namgyal-institute-of-tibetology.jpg
+    - images/Monastries/enlarged/pemayangste-monastery.jpg
+    - images/Monastries/enlarged/phensang-monastery.jpg
+    - images/Monastries/enlarged/phodong-monastery.jpg
+    - images/Monastries/enlarged/ralang-monastery.jpg
+    - images/Monastries/enlarged/rumtek-monastery.jpg
+    - images/Monastries/enlarged/samdruptse-monastery-ngadak.jpg
+    - images/Monastries/enlarged/sanga-choeling-monastery.jpg
+    - images/Monastries/enlarged/serdup-choling-monastery.jpg
+    - images/Monastries/enlarged/tsuklakhang-monastery.jpg
+    #datas
+    - data/attractions/Monasteries/bon-monastery.twig
+    - data/attractions/Monasteries/do-drul-chorten-monastery.twig
+    - data/attractions/Monasteries/dubdi-monastery.twig
+    - data/attractions/Monasteries/enchey-monastery.twig
+    - data/attractions/Monasteries/labrang-monastery.twig
+    - data/attractions/Monasteries/mangbure-monastery.twig
+    - data/attractions/Monasteries/namgyal-institute-of-tibetology.twig
+    - data/attractions/Monasteries/pemayangste-monastery.twig
+    - data/attractions/Monasteries/phensang-monastery.twig
+    - data/attractions/Monasteries/phodong-monastery.twig
+    - data/attractions/Monasteries/ralang-monastery.twig
+    - data/attractions/Monasteries/rumtek-monastery.twig
+    - data/attractions/Monasteries/samdruptse-monastery-ngadak.twig
+    - data/attractions/Monasteries/sanga-choeling-monastery.twig
+    - data/attractions/Monasteries/serdup-choling-monastery.twig
+
+  #Pilgirimages here
+    - images/Pilgrimages/enlarged/baba-harbajan-singh-mandir.jpg
+    - images/Pilgrimages/enlarged/buddha-park.jpg
+    - images/Pilgrimages/enlarged/ganesh-tok.jpg
+    - images/Pilgrimages/enlarged/hanuman-tok.jpg
+    - images/Pilgrimages/enlarged/sri-sridi-baba-sai-mandir.jpg
+    - images/Pilgrimages/enlarged/saraswati-mandir.jpg
+    - images/Pilgrimages/enlarged/shiva-mandir.jpg
+    - images/Pilgrimages/enlarged/siddheshwara-dham.jpg
+    #data
+    - data/attractions/Pilgrimages/baba-harbajan-singh-mandir.twig
+    - data/attractions/Pilgrimages/buddha-park.twig
+    - data/attractions/Pilgrimages/ganesh-tok.twig
+    - data/attractions/Pilgrimages/hanuman-tok.twig
+    - data/attractions/Pilgrimages/sri-sridi-baba-sai-mandir.twig
+    - data/attractions/Pilgrimages/saraswati-mandir.twig
+    - data/attractions/Pilgrimages/shiva-mandir.twig
+    - data/attractions/Pilgrimages/siddheshwara-dham.twig
+  #scenic-places
+    - images/scenic-places/enlarged/aritar.jpg
+    - images/scenic-places/enlarged/bakthang-waterfalls.jpg
+    - images/scenic-places/enlarged/banjhakri-waterfalls.jpg
+    - images/scenic-places/enlarged/borong-hot-springs.jpg
+    - images/scenic-places/enlarged/changu-lake.jpg
+    - images/scenic-places/enlarged/gurudongmar-lake.jpg
+    - images/scenic-places/enlarged/gyalshing.jpg
+    - images/scenic-places/enlarged/khandu-sangphug.jpg
+    - images/scenic-places/enlarged/khecheoplari-lake.jpg
+    - images/scenic-places/enlarged/lachung.jpg
+    - images/scenic-places/enlarged/mangan.jpg
+    - images/scenic-places/enlarged/namchi.jpg
+    - images/scenic-places/enlarged/pakyong.jpg
+    - images/scenic-places/enlarged/pelling.jpg
+    - images/scenic-places/enlarged/rapdentse-palace.jpg
+    - images/scenic-places/enlarged/ravangla.jpg
+    - images/scenic-places/enlarged/seven-sister-waterfalls.jpg
+    - images/scenic-places/enlarged/shingshore-bridge.jpg
+    - images/scenic-places/enlarged/tarey-bhir.jpg
+    - images/scenic-places/enlarged/tashi-view-point.jpg
+    - images/scenic-places/enlarged/tendong-hill.jpg
+    - images/scenic-places/enlarged/thangu.jpg
+    - images/scenic-places/enlarged/yume-samdong.jpg
+    - images/scenic-places/enlarged/yumthang-valley.jpg
+    #data
+    - data/attractions/scenic-places/aritar.twig
+    - data/attractions/scenic-places/bakthang-waterfalls.twig
+    - data/attractions/scenic-places/banjhakri-waterfalls.twig
+    - data/attractions/scenic-places/borong-hot-springs.twig
+    - data/attractions/scenic-places/changu-lake.twig
+    - data/attractions/scenic-places/gurudongmar-lake.twig
+    - data/attractions/scenic-places/gyalshing.twig
+    - data/attractions/scenic-places/khandu-sangphug.twig
+    - data/attractions/scenic-places/khecheoplari-lake.twig
+    - data/attractions/scenic-places/lachung.twig
+    - data/attractions/scenic-places/mangan.twig
+    - data/attractions/scenic-places/namchi.twig
+    - data/attractions/scenic-places/pakyong.twig
+    - data/attractions/scenic-places/pelling.twig
+    - data/attractions/scenic-places/rapdentse-palace.twig
+    - data/attractions/scenic-places/ravangla.twig
+    - data/attractions/scenic-places/seven-sister-waterfalls.twig
+    - data/attractions/scenic-places/shingshore-bridge.twig
+    - data/attractions/scenic-places/tarey-bhir.twig
+    - data/attractions/scenic-places/tashi-view-point.twig
+    - data/attractions/scenic-places/tendong-hill.twig
+    - data/attractions/scenic-places/thangu.twig
+    - data/attractions/scenic-places/yume-samdong.twig
+    - data/attractions/scenic-places/yumthang-valley.twig
+    #adventures
+    - images/adventures/dzongri-goechela-trek.jpg
+    - images/adventures/mountain-biking.jpg
+    - images/adventures/paragliding.jpg
+    - images/adventures/river-rafting.jpg
+    - images/adventures/tosar-lake-trekking.jpg
+    - images/adventures/trekking.jpg
+    #data
+    - data/adventures/dzongri-goechela-trek.twig
+    - data/adventures/mountain-biking.twig
+    - data/adventures/paragliding.twig
+    - data/adventures/river-rafting.twig
+    - data/adventures/tosar-lake-trekking.twig
+    - data/adventures/trekking.twig
+    #gallery here
+    - images/gallery/item1.jpg
+    - images/gallery/item2.jpg
+    - images/gallery/item3.jpg
+    - images/gallery/item4.jpg
+    - images/gallery/item5.jpg
+    - images/gallery/item6.jpg
+    - images/gallery/item7.jpg
+    - images/gallery/item8.jpg
+    - images/gallery/item9.jpg
+    - images/gallery/item10.jpg
+    - images/gallery/item11.jpg
+    - images/gallery/item12.jpg
+    - images/gallery/item13.jpg
+    - images/gallery/item14.jpg
+    - images/gallery/item15.jpg
+    - images/gallery/item16.jpg
+    - images/gallery/item17.jpg
+    - images/gallery/item18.jpg
+    - images/gallery/item19.jpg
+    - images/gallery/item20.jpg
+    - images/gallery/item21.jpg
+    - images/gallery/item22.jpg
+    - images/gallery/item23.jpg
+    - images/gallery/item24.jpg
+    - images/gallery/item25.jpg
+    - images/gallery/item26.jpg
+    - images/gallery/item27.jpg
+    - images/gallery/item28.jpg
+    - images/gallery/item29.jpg
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+  - family: Poiret-One
+    fonts:
+      - asset: images/PoiretOne-Regular.ttf
+        style: normal
+  - family: Cinzel
+    fonts:
+      - asset: assets/fonts/Cinzel/CinzelDecorative-Bold.ttf
+        style: normal
+  - family: Lato
+    fonts:
+      - asset: assets/fonts/Lato/Lato-Regular.ttf
+        style: normal
+      - asset: assets/fonts/Lato/Lato-Light.ttf
+        style: normal
+        weight: 300
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
